@@ -23,8 +23,11 @@ export default function Page2() {
 
   return (
     <AnimatedContainer>
-      <div className="bg-red-500 min-h-screen w-full flex items-center justify-center flex-col space-y-10">
+      <div className="bg-red-500 min-h-screen w-full flex items-center justify-center flex-col space-y-10  bg-cover" style={{background: `url(images/clouds.jpeg)`}}>
         <HeroLargeText text="Page 2" />
+        <div className="text-center max-w-[750px] mx-auto">
+          
+        </div>
         <button
           className="h-[50px] w-[200px] cursor-pointer bg-blue-500 text-white"
           onClick={handleExitAnimation}

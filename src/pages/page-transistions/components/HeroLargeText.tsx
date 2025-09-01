@@ -36,7 +36,7 @@ export default function HeroLargeText({text}:{text: string}) {
 
   return (
     <div className="w-fit h-fit mx-auto text-center overflow-hidden">
-      <h1 ref={textRef} className="text-7xl font-extrabold text-black uppercase">
+      <h1 ref={textRef} className="text-7xl font-gasoekone text-[#88C0FF] uppercase">
         {text}
       </h1>
     </div>
